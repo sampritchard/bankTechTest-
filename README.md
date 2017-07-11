@@ -11,8 +11,8 @@ I decided to use JavaScript as this is a technology I want to become more famili
 I started by mapping a rough idea of the objects I thought I would need (account, printer & transaction), before writing out the basic user stories below. I followed a strict TDD approach, where I built the account object first which was responsible for depositing and withdrawing. The next object I built was the transaction object, where the deposits and withdrawals get pushed into. The print class was what I will be building last (currently only prints out the header).
 
 ### Ongoing work
--- user story 4 - no bank statement can be printed currently.
--- single responsibility principle needs to be adhered to in the account functions.
+- user story 4 - no bank statement can be printed currently.
+- single responsibility principle needs to be adhered to in the account functions.
 
 ### User Stories
 ```
