@@ -14,4 +14,10 @@ describe("Transaction", function() {
     account.deposit(1000);
     expect(transaction.history).toEqual([1000,1000])
   })
+
+  it("should update when a account withdrawal is made", function() {
+    account.withdraw(1000);
+    account.withdraw(1000);
+    expect(transaction.history).toEqual([-1000, -1000])
+  })
 });

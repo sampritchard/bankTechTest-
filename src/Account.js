@@ -10,4 +10,5 @@ Account.prototype.deposit = function (number) {
 
 Account.prototype.withdraw = function (number) {
   this.balance -= number
+  transaction.history.push(-(number));
 };
