@@ -5,10 +5,10 @@ function Account(balance=0) {
 
 Account.prototype.deposit = function (number) {
   this.balance += number
-  transaction.history.push(number);
+  transaction.history.push(new Date().toDateString() + ": " + number);
 };
 
 Account.prototype.withdraw = function (number) {
   this.balance -= number
-  transaction.history.push(-(number));
+  transaction.history.push(new Date().toDateString() + ": " + (-number));
 };

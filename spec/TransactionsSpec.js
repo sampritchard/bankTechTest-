@@ -12,13 +12,13 @@ describe("Transaction", function() {
   it("should update when a account deposit is made", function() {
     account.deposit(1000);
     account.deposit(1000);
-    expect(transaction.history).toEqual([1000,1000])
+    expect(transaction.history).toEqual(["Tue Jul 11 2017: 1000", "Tue Jul 11 2017: 1000"])
   })
 
   it("should update when a account withdrawal is made", function() {
     account.withdraw(1000);
     account.withdraw(1000);
-    expect(transaction.history).toEqual([-1000, -1000])
+    expect(transaction.history).toEqual(["Tue Jul 11 2017: -1000", "Tue Jul 11 2017: -1000"])
   })
 
 });
