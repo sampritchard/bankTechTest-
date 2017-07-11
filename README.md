@@ -1,5 +1,13 @@
 # bankTechTest
 
+### To Use
+- clone this repo
+- open SpecRunner.html
+- play around in the console
+
+### Approach
+
+
 ### User Stories
 ```
 As a user,

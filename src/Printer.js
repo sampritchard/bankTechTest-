@@ -3,7 +3,5 @@ function AccountStatement() {
 }
 
 AccountStatement.prototype.print = function () {
-  return (this.header + '\n' +
-          200 + '\n' +
-          200);
+
 };
