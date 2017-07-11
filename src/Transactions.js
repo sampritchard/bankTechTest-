@@ -1,3 +1,3 @@
 function Transaction() {
-  this.history = []
+  this.history = [];
 }

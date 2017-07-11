@@ -20,4 +20,5 @@ describe("Transaction", function() {
     account.withdraw(1000);
     expect(transaction.history).toEqual([-1000, -1000])
   })
+
 });
