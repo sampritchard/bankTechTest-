@@ -13,4 +13,9 @@ describe("Account", function() {
     account.deposit(1000);
     expect(account.balance).toEqual(1000);
   })
+
+  it("should allow user to withdraw", function() {
+    account.withdraw(1000);
+    expect(account.balance).toEqual(-1000);
+  })
 });

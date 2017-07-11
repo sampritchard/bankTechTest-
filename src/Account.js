@@ -5,3 +5,7 @@ function Account(balance=0) {
 Account.prototype.deposit = function (number) {
   this.balance += number
 };
+
+Account.prototype.withdraw = function (number) {
+  this.balance -= number
+};
